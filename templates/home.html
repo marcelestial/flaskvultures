@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Vulture Species</h1>
+    <p>An incomplete list of species of vultures worldwide</p>
+    <u1>
+      {% for vulture in vultures %}
+        <p> {{ vulture.speciesName }}</p>
+      {% endfor %}
+    </u1>
+    <a href="/best">You'll be amazed to find out which is the coolest (NOT CLICKBAIT)!!!!!</a>
+  </body>
+</html>
