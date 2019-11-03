@@ -10,9 +10,10 @@
         <p>An incomplete list of species of vultures worldwide</p>
         <u1>
           {% for vulture in vultures %}
-          <p>  <a href="{{ url_for('detail', id=vulture.speciesId) }}"> {{ vulture.speciesName }}</a> </p>
+          <p> <a href="{{ url_for('detail', id=vulture.speciesId) }}"> {{ vulture.speciesName }}</a> </p>
           {% endfor %}
         </u1>
+          <p> <a href="/add">Add Entry</a> </p>
       </div>
     {% endblock %}
   </body>
