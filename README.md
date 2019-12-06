@@ -1,5 +1,5 @@
 # flaskvultures
-A flask webapp for maintaining a collection of vulture facts. Stores species data including name and description.
+A Flask webapp for maintaining a collection of vulture facts. Stores species data including name and description, using SQLite, Peewee, and WTForms.
 ## Installation (Mac OS X)
 #### Clone the source locally:
 ```
